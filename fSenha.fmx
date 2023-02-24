@@ -1,0 +1,56 @@
+object Frame1: TFrame1
+  Size.Width = 246.000000000000000000
+  Size.Height = 76.000000000000000000
+  Size.PlatformDefault = False
+  object PanelSenha: TPanel
+    Align = Client
+    Size.Width = 246.000000000000000000
+    Size.Height = 76.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Kind = None
+      Size.Width = 246.000000000000000000
+      Size.Height = 76.000000000000000000
+      Size.PlatformDefault = False
+      object BtSenha: TButton
+        Position.X = 64.000000000000000000
+        Position.Y = 48.000000000000000000
+        StyleLookup = 'buttonstyle'
+        TabOrder = 0
+        Text = 'Confirmar'
+      end
+      object Button1: TButton
+        AutoTranslate = False
+        Position.X = 208.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 33.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'passwordeditbutton'
+        TabOrder = 1
+        Text = 'Button1'
+      end
+      object EdSenha: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        Password = True
+        Position.X = 9.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 200.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object LbSenha: TLabel
+        AutoSize = True
+        Position.X = 88.000000000000000000
+        Size.Width = 39.000000000000000000
+        Size.Height = 16.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.WordWrap = False
+        Text = 'Senha:'
+      end
+    end
+  end
+end
